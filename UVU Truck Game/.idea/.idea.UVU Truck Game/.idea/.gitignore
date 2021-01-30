@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/.idea.UVU Truck Game.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\birda\OneDrive\Documents\GitRepos\1610Spring2021\UVU Truck Game\.idea\.idea.UVU Truck Game\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
