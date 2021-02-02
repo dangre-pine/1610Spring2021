@@ -13,7 +13,7 @@ public class BallGenerator : MonoBehaviour
         while (number < 25)
         {
             yield return new WaitForSeconds(0.5f);
-            Instantiate(ball);
+            //Instantiate(ball);
             number++;
             Debug.Log(number);
         }
