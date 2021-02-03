@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 368496646}
   - component: {fileID: 368496645}
   - component: {fileID: 368496649}
+  - component: {fileID: 368496650}
   m_Layer: 0
   m_Name: Guy
   m_TagString: Untagged
@@ -377,6 +378,18 @@ MonoBehaviour:
   ballRigidbody2D: {fileID: 368496645}
   xDirection: {x: 3, y: 0}
   yDirection: {x: 0, y: 10}
+--- !u!114 &368496650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368496644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f362d13785fd654dad52bbfe655b48c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &456399574
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,6 +407,8 @@ GameObject:
   - component: {fileID: 456399581}
   - component: {fileID: 456399582}
   - component: {fileID: 456399583}
+  - component: {fileID: 456399584}
+  - component: {fileID: 456399585}
   m_Layer: 0
   m_Name: PracticeCode
   m_TagString: Untagged
@@ -550,6 +565,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 220780041}
+--- !u!114 &456399584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456399574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c414f4486292074d921e08e57ed577d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &456399585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456399574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0577557659bb14d84d7e4ba70a3b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
