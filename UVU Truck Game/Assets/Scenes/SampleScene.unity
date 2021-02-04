@@ -410,6 +410,7 @@ GameObject:
   - component: {fileID: 456399584}
   - component: {fileID: 456399585}
   - component: {fileID: 456399586}
+  - component: {fileID: 456399587}
   m_Layer: 0
   m_Name: PracticeCode
   m_TagString: Untagged
@@ -600,6 +601,18 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7316acb2810c2ac4c9ff3d55157bddde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &456399587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456399574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e089b6658940a4bb3d6fd62b3b8c02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &519420028
