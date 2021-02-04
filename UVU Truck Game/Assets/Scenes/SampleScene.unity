@@ -411,6 +411,7 @@ GameObject:
   - component: {fileID: 456399585}
   - component: {fileID: 456399586}
   - component: {fileID: 456399587}
+  - component: {fileID: 456399588}
   m_Layer: 0
   m_Name: PracticeCode
   m_TagString: Untagged
@@ -615,6 +616,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e089b6658940a4bb3d6fd62b3b8c02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &456399588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456399574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6020247afce8c459275c3f86602352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myObject: {fileID: 624580567}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,7 +723,7 @@ GameObject:
   - component: {fileID: 624580569}
   - component: {fileID: 624580568}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Huh?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
