@@ -412,6 +412,7 @@ GameObject:
   - component: {fileID: 456399586}
   - component: {fileID: 456399587}
   - component: {fileID: 456399588}
+  - component: {fileID: 456399589}
   m_Layer: 0
   m_Name: PracticeCode
   m_TagString: Untagged
@@ -623,12 +624,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456399574}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c6020247afce8c459275c3f86602352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myObject: {fileID: 624580567}
+--- !u!114 &456399589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456399574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c5b43a246649e44293041db8e72f18c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  turnSpeed: 50
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
