@@ -41,18 +41,16 @@ public class Counter : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter2D(Collider2D collision)
     {
-            if (!hide)
-            {
 
 
-                if ((collision.gameObject.tag == "Guy") || (collision.gameObject.tag == "Head"))
+        if ((collision.gameObject.tag == "Guy") || (collision.gameObject.tag == "Head"))
                 {
                     numberCount += CreditValue;
                     counterText.text = numberCount.ToString();
                     // gameObject.transform.localScale = new Vector2(0, 0);
                     // gameObject.SetActive(false);
                     rend.enabled = false;
-                    hide = true;
+                   // hide = true;
                 }
             }
     }
