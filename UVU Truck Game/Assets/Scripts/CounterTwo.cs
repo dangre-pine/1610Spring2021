@@ -21,27 +21,31 @@ public class CounterTwo : MonoBehaviour
     {
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    public IEnumerator OnTriggerEnter2D(Collider2D collision)
     {
 
 
         if ((collision.gameObject.tag == "Guy") || (collision.gameObject.tag == "Head"))
         {
+            // get current score and add the credit value to it
             numberCount += creditValue;
+            // set the text object equal to the score
             counterText.text = numberCount.ToString();
+            Debug.Log("*****" + numberCount);
             // gameObject.transform.localScale = new Vector2(0, 0);
+            // set game object to false so it disapears
             gameObject.SetActive(false);
-            StartCoroutine(waiter());
+            // create a random wait time between a given range
+            int wait_time = Random.Range(5, 20);
+            // while waiting, return to run other game stuff
+            yield return new WaitForSeconds(wait_time);
+            Debug.Log("***I waited for " + wait_time + "sec");
+            // after waiting random time, turn game object on
             gameObject.SetActive(true);
 
         }
 
     }
 
-    IEnumerator waiter()
-    {
-        int wait_time = Random.Range(5, 20);
-        yield return new WaitForSeconds(wait_time);
-        print("I waited for " + wait_time + "sec");
-    }
+   
 }

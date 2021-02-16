@@ -52,6 +52,6 @@ public class Counter : MonoBehaviour
                     rend.enabled = false;
                    // hide = true;
                 }
-            }
+            
     }
 }

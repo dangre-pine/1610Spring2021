@@ -644,7 +644,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368496644}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ab4756ce42263a4382d6597e121ed4f, type: 3}
   m_Name: 
@@ -1669,8 +1669,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2110189580}
   - component: {fileID: 2110189579}
-  - component: {fileID: 2110189578}
   - component: {fileID: 2110189581}
+  - component: {fileID: 2110189578}
   m_Layer: 0
   m_Name: Credit
   m_TagString: Credit 1
@@ -1687,15 +1687,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2110189577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a32f622a7189374ab8db6bcd191ffba, type: 3}
+  m_Script: {fileID: 11500000, guid: 3229bdf514111f34394eb5d3eb0ebfdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CreditValue: 3
+  creditValue: 3
   numberCount: 0
   counterText: {fileID: 2126785336}
-  regenCount: 0
-  hide: 0
-  rend: {fileID: 0}
 --- !u!212 &2110189579
 SpriteRenderer:
   m_ObjectHideFlags: 0
