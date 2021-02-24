@@ -38,10 +38,15 @@ public class CounterThree : MonoBehaviour
             rend.enabled = false;
             // create a random wait time between a given range
             int wait_time = Random.Range(5, 20);
+            // randomly generates a new x y position each respawn
+            int moveX = Random.Range(-2, 2);
+            int moveY = Random.Range(-2, 2);
             // while waiting, return to run other game stuff
             yield return new WaitForSeconds(wait_time);
             Debug.Log("***I waited for " + wait_time + "sec");
             // after waiting random time, turn game object on
+            // moves credit to new random position
+            gameObject.transform.position = new Vector2(moveX, moveY);
             rend.enabled = true;
 
         }
