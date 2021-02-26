@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CounterThree : MonoBehaviour
 {
     public int creditValue = 3;
-    public int numberCount;
+    public IntData numberCount;
     public Text counterText;
     public Renderer rend;
 
@@ -14,6 +14,7 @@ public class CounterThree : MonoBehaviour
     private void Start()
     {
         rend = gameObject.GetComponent<Renderer>();
+        numberCount.value = 0;
     }
 
 
@@ -29,10 +30,10 @@ public class CounterThree : MonoBehaviour
         if ((collision.gameObject.tag == "Guy") || (collision.gameObject.tag == "Head"))
         {
             // get current score and add the credit value to it
-            numberCount += creditValue;
+            numberCount.value += creditValue;
             // set the text object equal to the score
-            counterText.text = numberCount.ToString();
-            Debug.Log("*****" + numberCount);
+            counterText.text = numberCount.value.ToString();
+            Debug.Log("*****" + numberCount.value);
             // gameObject.transform.localScale = new Vector2(0, 0);
             // set game object to false so it disapears - cant use deactivate cuz all scripts on this object stop
             rend.enabled = false;

@@ -10,7 +10,7 @@ public class UserInput : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("xxxxxxxx");
     }
 
     // Update is called once per frame
